@@ -1,0 +1,10 @@
+build
+.gradle
+local.properties
+.idea
+
+app/build
+app/libs
+sign.gradle
+
+*.iml

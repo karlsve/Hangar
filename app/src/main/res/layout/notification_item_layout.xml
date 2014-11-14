@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/notification_item_container"
+    android:elevation="5dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:id="@+id/imageButton"
+        android:clickable="false"
+        android:focusable="false"
+        android:elevation="1dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center" />
+</LinearLayout>
